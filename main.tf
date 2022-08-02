@@ -18,6 +18,6 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
   key_name = "DelaVega"
   tags = {
-    Name = "Denso_Terraform"
+    Name = "Denso_Testing"
   }
 }
