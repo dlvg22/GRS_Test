@@ -16,7 +16,7 @@ provider "aws" {
 resource "aws_instance" "app_server" {
   ami           = "ami-01e2c398431e05258"
   instance_type = "t2.micro"
-
+  key_name = "DelaVega"
   tags = {
     Name = "Denso_Terraform"
   }
